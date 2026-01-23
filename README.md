@@ -90,7 +90,7 @@ Equip relationship managers and marketing teams with insights to design segment-
 - **Turnover Table**: Contains data on employees who left the company, including the reason for leaving.
 - **Salaries Table**: Provides salary data, including historical salary changes for each employee.
 <p align="center">
-  <img src="assets/img/datamodel.png" width="1000" />
+  <img src="assets/Data_Modelling.png" width="1000" />
 </p>
 
 ---
