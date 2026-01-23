@@ -149,7 +149,7 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 ---
 
 
-## Customer Overview
+## 🔢 Customer Overview
 ### Top KPIs (Key Performance Indicators)
 - Total Customers: 10,000
 - Average Balance: $76,486
@@ -157,7 +157,7 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 - Active Customers: 51.51%
 - Median Credit Score: 652
 
-### Customer Segmentation: Analysis & Insights
+### 📊 Customer Segmentation: Analysis & Insights
 **1. By Location**
 - France has 50% (5,014) of the total customers.
 - Germany and Spain are almost equally represented (~25% each).
@@ -170,46 +170,38 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 - Gender distribution is balanced across all age groups
 
 **3. By Credit Score Band**
+- Majority of customers have fair to poor credit:
+   - Fair (580–669): 3,331 customers
+   - Poor (<580): 2,362 customers
+   - Good (670–739): 2,428 customers
+- Only 655 customers have Excellent (800+) scores - just 6.5% of the base
 
-Majority of customers have fair to poor credit:
+**4. By Number of Products**
+- Over 50% have only 1 product
+  - 5,084 (1 product)
+  - 4,590 (2 products)
+- Very few are using 3+ products
 
-Fair (580–669): 3,331 customers
-
-Poor (<580): 2,362 customers
-
-Good (670–739): 2,428 customers
-
-Only 655 customers have Excellent (800+) scores — just 6.5% of the base
-
-4. By Number of Products
-
-Over 50% have only 1 product
-
-5,084 (1 product)
-
-4,590 (2 products)
-
-Very few are using 3+ products → cross-sell penetration is low
-
-5. By Balance Band
-
-High Balance (100k–150k): 3,800 customers
-
-Low Balance (<50k): 3,700 customers
-
-Very High Balance (150k+): 1,000 customers
-
-Most balances are clustered at the extremes — either low or high, suggesting a bimodal distribution
+**5. By Balance Band**
+- High Balance (100k–150k): 3,830 customers
+- Low Balance (<50k): 3,692 customers
+- Medium (50k-100k): 1,509 customers
+- Very High Balance (150k+): 969 customers
+- Most balances are clustered at the extremes - either low or high, suggesting a bimodal distribution
 
 
+### ⚠️ Key Challenges Identified
+**1. Low Active Engagement**
+- With only 51.51% active customers, nearly half of the customer base is disengaged or dormant.
+  - This may contribute significantly to the 20.37% churn rate.
 
+**2. Low Cross-Sell Penetration**
+- Over 95% of customers have 1–2 products
+  - Suggests missed opportunities for upselling/cross-selling additional financial services (loans, credit cards, investments, etc.)
 
-
-**Analysis & Insight:** 
-- The **earliest hire date** in the company is **June 30, 2015**, meaning the longest-serving employee has been with the organization for over 9 years.
-- All five longest-tenured employees were hired between **2015 and 2016**, highlighting a period of exceptionally strong retention.
-- **4 out of the 5** longest-serving employees work in the **Sales department**, indicating that Sales is the most stable team in the organization.
-- This suggests that the hiring practices, leadership, or incentives used during this period, particularly within Sales, were highly effective and could be replicated to improve retention across newer teams.
+**3. Weak Credit Quality**
+- With a median credit score of 652 and 5,693 customers in Fair or Poor segments, the bank may be carrying higher credit risk.
+  - Could impact loan default rates and profitability if not managed
 <p align="center">
   <img src="assets/img/Q1.png" width="1000" />
 </p>
