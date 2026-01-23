@@ -1,6 +1,6 @@
 # PowerBI_Financial_Performance_Customer_Churn_Analytics
 <p align="center">
-  <img src="assets/Overview.jpg" width="1000" />
+  <img src="assets/Overview.png" width="1000" />
 </p>
 
 
@@ -243,6 +243,10 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 
 **Actionable Insight:** Inactivity is a major churn predictor. There is a need to consider stronger lifecycle management.
 
+<p align="right">
+  <img src="assets/risk2.png" width="1000" />
+</p>
+
 ### Churn by Product Usage
 | No. of Products    | Churn Rate    | No. of Churned     |
 |--------------------|-------------- |--------------------|
@@ -318,7 +322,6 @@ Churn is fairly consistent across credit bands, and no strong correlation betwee
 - The average balance of churned customers ($91,109) is higher than that of retained customers ($72,745), suggesting that higher-value customers are churning.
 
 **2. Geographical Distribution**
-
 - Majority of customers are from:
   - France: 5,014 (50.1%)
   - Germany: 2,509 (25.1%)
@@ -337,51 +340,114 @@ However, a filtered drill-down shows:
 - Suggests younger customers are more likely to churn.
 
 **4. Churn Risk Tiers**
-
 - Within the Germany/<25/Medium Risk segment:
   - Most are in Medium Risk tier (77 out of 96).
   - Low (14) and High (5) are negligible.
 
 
+---
 
 
+## 🎯 Strategic Recommendations
 
+A. **Customer Retention Strategy**
 
+1. **Prioritize high-balance churners:**
+   - Since churned customers have higher average balances, create retention campaigns targeting high-value customers.
+   - Consider proactive outreach, loyalty rewards, or personalized financial advice.
 
+2. **Develop targeted interventions for medium-risk segments:**
+   - The largest risk category is medium. Launch "nudge" campaigns for this group to reduce the risk of escalation.
+   - Examples: financial planning tools, regular check-ins, or premium service trials.
+
+B. **Segment-Specific Strategies**
+
+1. **Adults (45-54 age group) and Seniors (55+ age group)**
+   - High churn and low retention indicate dissatisfaction or low engagement.
+   - Actions:
+     - Launch adults-focused products (e.g., retirement planning consultations, health savings-linked accounts, insurance bundles (health + life + critical illness)).
+     - Improve digital engagement (mobile banking, in-app "easy mode" interface).
+
+2. **Germany Segment**
+   - Customers <25 in Germany are showing churn behavior.
+   - Consider localized offers and customer engagement campaigns in Germany targeting this age group.
+
+C. **Geographic Focus**
+   - France has 50% of total customers – leverage this for upselling and cross-selling.
+   - Spain and Germany: Evaluate marketing ROI and retention performance to determine if higher engagement is needed.
+
+D. **Improve Churn Prediction & Early Warning**
+   - Use the existing churn risk tiers to build a predictive churn model based on:
+     - Age
+     - Geography
+     - Gender
+     - Credit Score
+     - Product usage
+     - Balance trends
+   - Focus on medium-risk segments and monitor any increase in early warning indicators.
+
+E. **Financial Impact Monitoring**
+   - Given that high churners have higher balances:
+     - Quantify potential revenue loss from churn and build a business case for investing in retention programs.
+     - Use dashboards to track CLV (Customer Lifetime Value) over time by segment.
+
+### Next Steps
+
+1. **Deep dive into churn drivers:** Survey churned customers, analyze product usage data.
+
+2. **Build retention models:** Use machine learning (e.g., logistic regression, random forest) to predict churn risk.
+
+3. **Refine segmentation:** Include behavioral data (transaction volume, complaints, digital activity).
+
+4. **Test retention offers:** A/B test targeted campaigns for high-value and medium-risk customers.
+
+5. **Monitor KPIs monthly:** Add trend charts for churn rate, NPS, and retention by geography and age.
 
 
 ---
 
-### Department-specific Recommendations
-1. **Engineering (critical attention needed)**
-- Address causes of 150% turnover: conduct workload audits, enhance leadership support, and improve team morale.
-- Offer technical training and recognition programs to boost satisfaction.
-2. **Marketing & HR (high turnover areas)**
-- Strengthen employee support and engagement.
-- Clarify role expectations, career paths, and growth opportunities.
-- Reassess workload distribution and team structure.
-3. **Sales (strong retention & stability)**
-- Analyze and document sales’ successful retention strategies, leadership style, incentives, onboarding, and replicate what works across other departments.
-4. **Company-wide**
-- Ensure each department receives a tailored retention and performance plan based on turnover rate and average performance score.
-
----
 
 ## Executive Summary
-This report analyzes employee performance, compensation, and turnover trends at NextGen Corp to identify risks and opportunities impacting workforce stability and organizational growth. The findings highlight significant retention challenges in Engineering, HR, and Marketing, contrasted with strong stability in Sales. While performance levels are generally consistent across departments, no team has yet reached top-tier performance, indicating opportunities to strengthen performance management and employee development.
 
-Compensation analysis reveals uneven salary distribution across roles, suggesting the need for better alignment with responsibilities, performance, and market benchmarks. Based on these insights, the report recommends targeted retention initiatives, standardized performance evaluation, competitive and equitable pay structures, and stronger employee support programs.
+This Power BI analytics solution provides Unity Bank with a comprehensive, data-driven view of its customer base, financial exposure, and churn risk. By leveraging the full capabilities of Power BI from data transformation to advanced DAX measures and interactive dashboards, the project delivers actionable insights that directly support customer retention, revenue protection, and risk mitigation efforts.
 
-Implementing these actions will help NextGen Corp improve retention, boost productivity, and build a more resilient, high-performing workforce.
+This analysis reveals that Unity Bank is facing a critical customer churn challenge, with over 20% of customers exiting and a disproportionately high churn among medium-risk and high-balance clients. Inactivity, low product penetration, and regional concentration (notably in Germany) emerge as leading indicators of churn. Additionally, the bank’s current churn risk tiering underestimates the risk posed by medium-tier customers, who account for the largest share of churned balance value.
+
+The dashboards empower stakeholders to explore these dynamics through real-time, filterable views segmented by geography, age, credit score, product usage, and churn risk. This enables business leaders to move from reactive churn tracking to proactive customer engagement and risk prevention.
+
+### Strategic Recommendation
+
+Unity Bank should implement a **targeted, data-driven customer retention strategy** focused on the following priorities:
+
+1. **Prioritize Medium-Risk and High-Balance Customers**  
+   - Proactively monitor and engage medium-risk customers, especially those with high balances, using early-warning signals from the dashboard.
+
+2. **Reactivate Inactive Customers**  
+   - Launch re-engagement campaigns and personalized offers for inactive users, who represent a large portion of churned customers.
+
+3. **Increase Product Penetration to Reduce Churn**  
+   - Design bundled product offerings and personalized cross-sell strategies to encourage customers with only one product to deepen their relationship with the bank.
+
+4. **Localize Retention Strategies by Region**  
+   - Tailor retention and service strategies for high-churn regions like Germany, where customer behavior significantly deviates from the rest of the portfolio.
+
+5. **Refine Risk Scoring Models**  
+   - Update churn risk models to reflect actual behavioral drivers found in the data, such as inactivity, single product ownership, and regional trends, to improve prediction accuracy.
+
+By implementing these actions, Unity Bank can significantly reduce churn, improve customer lifetime value, and drive sustainable revenue growth through smarter, insight-led decisions.
+
 
 ---
+
 
 ## Disclaimer
 This project is for portfolio and educational display only.
 
 No content may be reused without permission.
 
+
 ---
+
 
 ## Connect With Me
 - 💼 **LinkedIn:** (https://www.linkedin.com/in/david-okeleye001/)
