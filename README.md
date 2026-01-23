@@ -6,40 +6,79 @@
 ---
 
 ## Business Overview
-**Unity Bank** is a financial services institution operating across multiple European markets, including France, Germany, and Spain. The bank serves a diverse customer base with varying financial profiles, credit quality, and engagement levels. As competition in the banking sector intensifies and customer switching costs decrease, **Unity Bank** faces growing pressure to retain customers, protect high‑value balances, and proactively manage churn risk.
+**Unity Bank** is a financial services institution operating across multiple European markets, including France, Germany, and Spain. The bank serves a diverse customer base with varying financial profiles, credit quality, and engagement levels. It also offers a variety of banking products across consumer and business segments. As part of its digital transformation and customer-centric strategy, the bank aims to strengthen data-driven decision-making across customer engagement, financial performance, and operational risk management.
 
-To support data‑driven decision-making, Unity Bank implemented a Power BI analytics solution focused on **customer behavior, churn risk, financial exposure, and portfolio performance**. The dashboards enable stakeholders to monitor customer retention, identify high-risk and high-value customers, analyze churn drivers, and evaluate how customer demographics, credit profiles, and product usage influence churn.
+To support data‑driven decision-making, Unity Bank implemented a PowerBI analytics solution focused on **customer behavior, churn risk, financial exposure, and portfolio performance**. The dashboards enable stakeholders to monitor customer retention, identify high-risk and high-value customers, analyze churn drivers, and evaluate how customer demographics, credit profiles, and product usage influence churn.
 
 
 ---
+
 
 ## Business Problem 
-Despite its continued growth and strong talent base, NextGen Corp is beginning to experience human-resource challenges that pose potential risks to long-term organizational performance. Recent internal indicators point to emerging issues across three key areas:
-1. **Employee Turnover**
+As competition in the banking sector intensifies and customer switching costs increase, **Unity Bank** faces growing pressure to retain customers, protect high-value balances, and proactively manage churn risk.
 
-Variability in employee retention suggests possible dissatisfaction, increased market competition for talent, or internal operational inefficiencies. Without a clear understanding of the underlying drivers and trends, rising turnover may lead to escalating recruitment and onboarding costs, knowledge loss, and productivity gaps.
+**1. High Customer Churn with Significant Financial Impact**
+- The bank is experiencing a churn rate of over 20%, resulting in the loss of 2,037 customers.
+- Churned customers account for approximately $186M in lost balances, posing a serious threat to revenue stability.
 
-2. **Performance Variability**
+**2. Loss of High-Value Customers**
+- The high-value churn rate (~25%) indicates that customers with substantial balances are leaving at a disproportionate rate.
+- Average churned balances are higher than retained balances, increasing financial exposure.
 
-Employee performance levels vary significantly across departments, limiting management’s ability to effectively allocate resources, plan promotions, and identify high-performing or underperforming teams. This lack of visibility reduces confidence in performance-based decision-making.
+**3. Inactivity as a Major Churn Driver**
+- A large share of churn originates from inactive customers, highlighting poor engagement and weak lifecycle management.
+- The bank lacks early-warning indicators to intervene before customers disengage.
 
-3. **Salary Disparities**
+**4. Geographic Concentration of Churn Risk**
+- Certain regions (notably Germany) show significantly higher churn rates and churned balances.
+- Regional performance disparities make it difficult to deploy uniform retention strategies.
 
-Concerns have emerged regarding compensation equity among employees in comparable roles. Misalignment between pay, performance, and responsibilities can contribute to reduced morale, disengagement, and increased attrition if left unaddressed.
+**5. Low Product Penetration and Weak Customer Stickiness**
+- Most customers hold only one product, increasing churn susceptibility.
+- Customers with fewer products show higher churn likelihood compared to multi-product customers.
+
+**6. Underestimated Risk in Medium-Risk Customers**
+- The majority of churned balances come from customers classified as Medium Risk, not High Risk.
+- This indicates gaps in the bank’s churn risk classification and prioritization logic.
+
 
 ---
 
+
 ## Project Objectives
-To ensure continued success, NextGen Corp’s HR department must adopt a structured, analytical approach to workforce management. The organization needs reliable insights to:
-- **Identify trends and patterns in employee retention and turnover**
+The PowerBI project was designed to achieve the following objectives:
 
-Understand which departments face the highest turnover and why
-- **Track and evaluate performance consistently across teams**
+**1. Provide a Unified View of Customer Churn and Risk**
+- Develop interactive dashboards that track churn rate, churned balances, risk tiers, and customer activity status in real time.
 
-Highlight hhigh-performing employees, address low performance, and maintain productivity standards
-- **Assess the relationship between salary and performance**
+**2. Identify High-Risk and High-Value Customers**
+- Enable business users to quickly isolate customers who combine high balances with elevated churn risk for proactive intervention.
 
-Ensure fairness, eliminate unjustified pay gaps, and support employee satisfaction
+**3. Analyze Churn Drivers Across Key Dimensions**
+
+Assess churn patterns by:
+- Geography
+- Age group
+- Credit score band
+- Product usage
+- Active vs. inactive status
+
+**4. Support Targeted Retention Strategies**
+
+Equip relationship managers and marketing teams with insights to design segment-specific retention actions, especially for:
+- Medium-risk customers
+- Inactive customers
+- Single-product customers
+- Older age segments (45+)
+
+**5. Improve Financial Risk Visibility**
+- Quantify the financial exposure of churn by risk tier and customer segment.
+- Shift focus from churn volume alone to churn value impact.
+
+**6. Enable Customer-Level Monitoring**
+- Provide a customer portfolio view to track individual balances, credit scores, risk tiers, and churn status.
+- Support operational decision-making at both strategic and tactical levels.
+
 
 ---
 
