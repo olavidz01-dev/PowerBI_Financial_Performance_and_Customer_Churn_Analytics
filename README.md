@@ -415,7 +415,7 @@ This analysis reveals that Unity Bank is facing a critical customer churn challe
 
 The dashboards empower stakeholders to explore these dynamics through real-time, filterable views segmented by geography, age, credit score, product usage, and churn risk. This enables business leaders to move from reactive churn tracking to proactive customer engagement and risk prevention.
 
-### Strategic Recommendation
+## Executive Recommendation
 
 Unity Bank should implement a **targeted, data-driven customer retention strategy** focused on the following priorities:
 
