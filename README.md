@@ -214,16 +214,31 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 
 ## 📊 Churn & Risk Overview
 
-<p align="center">
+<p align="right">
   <img src="assets/churn1.png" width="1000" />
 </p>
 
 ### Top KPIs (Key Performance Indicators)
-- Total Customers: 10,000
-- Average Balance: $76,486
-- Products per Customer: 1.53 on average
-- Active Customers: 51.51%
-- Median Credit Score: 652
+- Churn Rate: 20.37%
+- No. of Customers churned: 2.037
+- Churned Balance: $186M
+- High-Risk Customers: 174
+- High-Value Churn Rate: 24.98%
+  - Key Risk: Nearly 25% of high-value customers churned, representing a significant financial loss and a priority focus area.
+
+### 🌍 Churn by Location
+
+| Country         | Churn Rate   | Churned Balance    | Key Insight                               |
+|-----------------|--------------|--------------------|-------------------------------------------|
+| **Germany**     |     32%      |       $97.9M       | Highest churn rate and balance loss       |
+| **Spain**       |     17%      |       $29.9M       | Moderate churn, lower financial exposure  |                       | **France**      |     16%      |       $57.7M       | Lower churn rate, but large value impact  |
+
+---
+
+
+
+
+
 
 ### 📊 Customer Segmentation: Analysis & Insights
 **1. By Location**
