@@ -148,7 +148,7 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 
 ---
 
-🔗 [View the Live Dashboard](https://bit.ly/github_UnityBank)
+🔗 [View the Live Dashboard](https://bit.ly/UnityBank_Customer_Churn_Risk)
 
 ## 🔢 Customer Overview
 
@@ -407,7 +407,7 @@ E. **Financial Impact Monitoring**
 
 ---
 
-🔗 [View the Live Dashboard](https://bit.ly/github_UnityBank)
+🔗 [View the Live Dashboard](https://bit.ly/UnityBank_Customer_Churn_Risk)
 
 
 ## Executive Summary
