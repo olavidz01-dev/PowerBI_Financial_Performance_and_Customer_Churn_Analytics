@@ -82,29 +82,71 @@ Equip relationship managers and marketing teams with insights to design segment-
 
 ---
 
-## Data Dictionary
-- **Employees Table**: Contains essential employee details like name, job title, hire date, salary, performance score, attendance rate, and department affiliation
-- **Departments Table**: Contains the list of departments within NextGen Corp. (e.g., Engineering, Sales, HR, Marketing).
-- **Performance Table**: Tracks monthly performance scores of employees, allowing you to analyze performance trends over time.
-- **Attendance Table**: Tracks attendance records for employees, including whether they were present or absent.
-- **Turnover Table**: Contains data on employees who left the company, including the reason for leaving.
-- **Salaries Table**: Provides salary data, including historical salary changes for each employee.
+## Data Dictionary and Modelling
+- **CustomerID:** Unique customer identifier
+- **Surname:** Customer full name (for identification in the portfolio view)
+- **CreditScore:** Actual credit score used for segmentation 
+- **Geography:** Country of customer (France, Germany, Spain)
+- **Gender:** Customer gender (Male, Female)
+- **Age:** Exact age of customer
+- **Tenure:** How long they have been using the banking service(s)
+- **Balance:** Current total account balance held by the customer
+- **NumOfProducts:** Number of bank products held by the customer (1–4)
+- **HasCrCard:** Indicates if the customer has a credit card (Yes/No)
+- **IsActiveMembers:** Indicates if the customer is currently active or inactive
+- **EstimatedSalary:** Customer's annual salary
+- **Exited:** Indicates if the customer has churned (Yes/No)
+- **Age Group:** Customer age category (<25, 25–34, 35–44, 45–54, 55+)
+- **CreditScore Band:** Customer credit score range (Poor, Fair, Good, Very Good, Excellent)
+- **Churn Risk Score:** Scored risk level (e.g., 0–4 scale) for finer segmentation
+- **Balance Band:** Categorized balance ranges (e.g., Low < $50K, Medium $50K–100K, etc.)
+- **Churn Risk Tier:** Risk level assigned based on customer behavior or model (Low, Medium, High)
 <p align="center">
   <img src="assets/Data_Modelling.png" width="1000" />
 </p>
 
+
 ---
 
 ## Approach & Methodology
-- Postgres SQL
-- PgAdmin
-- Queries: Select, Order By, Not In, Limit, Where, Left Join, Count, Distinct, Group by, Round, To_char, Sum, Average
-- Data Analysis to identify trends and business recommendations.
+This project was developed entirely using **Microsoft PowerBI**, covering the full analytics workflow — from data cleaning and transformation to modeling, analysis, and visualization. The objective was to analyze customer behavior, churn risk, and portfolio insights using an integrated and interactive PowerBI dashboard solution.
+### 1️⃣ Data Cleaning & Transformation (Power BI Power Query)
+- Imported raw customer data into **Power BI** using Power Query Editor
+- Performed data cleaning and transformation directly in Power BI:
+  - Removed duplicates and filtered invalid or missing entries
+  - Renamed columns and standardized field formats (e.g., text, numeric, dates)
+  - Created **calculated columns** for:
+    - `Age Group` (e.g., <25, 25–34, 35–44, etc.)
+    - `Credit Score Band` (e.g., Poor, Fair, Good, etc.)
+    - `Balance Band` (e.g., Low < $50K, Medium, High, Very High)
+    - `Churn Risk Tier` (Low, Medium, High)
+    - `Churn Risk Score` (0,1,2,3,4,5)
+  - Ensured consistency and data quality for downstream modeling
+
+### 2️⃣ DAX Measures (Power BI)
+- Created **custom DAX measures** to support key metrics and business logic, including:
+  - `Churn Rate`, `Total Customers`, `Churned Balance`, `Average Churned Balance`, `Average Retained Balance`, etc
+- Used **DAX functions** such as:
+  - `CALCULATE`, `FILTER`, `DIVIDE`, `AVERAGEX`, `IF`, `VAR`, `COUNTROWS`, `DISTINCTCOUNT`, etc
+- Applied calculated measures to support dynamic and filter-aware analysis across customer segments
+
+### 3️⃣ Interactive Visualization & Dashboard Design (Power BI)
+Developed a comprehensive suite of interactive dashboards using **Power BI Desktop**
+
+**Visualization Techniques:**
+- Used card visuals, bar/column charts, donut charts, heatmaps, and filters/slicers
+- Enabled interactive drill-downs by age, region, churn status, and risk score
+
+### 4️⃣ Insight Generation & Business Alignment
+- Identified key customer behavior patterns
+- Translated findings into **actionable business recommendations**
+
 
 ---
 
+
 ## Employee Retention Analysis
-### 1) Top 5 longest-serving employee
+### 1) Top 5 longest-serving employees
 **Analysis & Insight:** 
 - The **earliest hire date** in the company is **June 30, 2015**, meaning the longest-serving employee has been with the organization for over 9 years.
 - All five longest-tenured employees were hired between **2015 and 2016**, highlighting a period of exceptionally strong retention.
