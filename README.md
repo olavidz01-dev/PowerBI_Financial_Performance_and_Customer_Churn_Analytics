@@ -1,9 +1,6 @@
 # PowerBI_Financial_Performance_Customer_Churn_Analytics
-
-
-# Employee Success Analysis with SQL - NextGen Corp
 <p align="center">
-  <img src="assets/img/banner.png" width="1000" />
+  <img src="assets/Overview.jpg" width="1000" />
 </p>
 
 ---
