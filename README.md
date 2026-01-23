@@ -203,7 +203,7 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 - With a median credit score of 652 and 5,693 customers in Fair or Poor segments, the bank may be carrying higher credit risk.
   - Could impact loan default rates and profitability if not managed
 <p align="center">
-  <img src="assets/img/Q1.png" width="1000" />
+  <img src="assets/CustomerDash.png" width="1000" />
 </p>
   
 ### 2) Rate of turnover per department
