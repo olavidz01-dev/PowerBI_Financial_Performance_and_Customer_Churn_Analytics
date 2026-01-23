@@ -231,50 +231,93 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 | Country         | Churn Rate   | Churned Balance    | Key Insight                               |
 |-----------------|--------------|--------------------|-------------------------------------------|
 | **Germany**     |     32%      |       $97.9M       | Highest churn rate and balance loss       |
-| **Spain**       |     17%      |       $29.9M       | Moderate churn, lower financial exposure  |                       | **France**      |     16%      |       $57.7M       | Lower churn rate, but large value impact  |
+| **Spain**       |     17%      |       $29.9M       | Moderate churn, lower financial exposure  |
+| **France**      |     16%      |       $57.7M       | Lower churn rate, but large value impact  |
+
+⚠ Germany is a high-risk churn zone, both in terms of volume and financial value.
+
+### Churn by Customer Type
+**1. Active vs. Inactive**
+- Inactive customers account for 65% of churn, which is only 48% of the base.
+- Active customer churn rate = 35%, indicating even active users aren't fully engaged.
+
+**Actionable Insight:** Inactivity is a major churn predictor. There is a need to consider stronger lifecycle management.
+
+### Churn by Product Usage
+| No. of Products    | Churn Rate    | No. of Churned     |
+|--------------------|-------------- |--------------------|
+|   1                |     28%       |        1,409       | 
+|   2                |     8%        |        348         |
+|   3                |     83%       |        220         | 
+|   4                |     100%      |        60          |
+
+Customers with only 1 product are the largest churn group (1,409 customers).
+
+**Caution**
+
+The dataset shows a 100% churn rate for customers with four products. On investigation, this segment has a very small sample size, and all instances are labelled as churned. This appears to be a dataset artifact rather than a realistic banking behavior, so insights from this segment should be interpreted with caution. Strategic focus should remain on 1–3 product customers, where both volume and churn impact are material.
+
+### Churn by Age Group
+| Age Group       | Churn Rate    | No. of Churned                        |
+|-----------------|-------------- |---------------------------------------|
+|   45-54         |     48%       |  Extremely high churn risk            |
+|   55+           |     39%       |  Aging segment disengaging            |
+|   35-44         |     18%       |  Moderate risk                        | 
+|   <25           |     9%        |  Lower churn, oppourtunity to grow    |
+|   25-34         |     8%        |   Best-performing segment             |
+
+**Insight:** Mid-to-senior age customers are churning at 2-5x the rate of younger ones.
+
+### Churn by Credit Score Band
+| Credit Score Band       |  Churn Rate    |
+|-------------------------|----------------|
+|  Poor (<580)            |     22%        |
+|  Fair (580-669)         |     21%        |
+|  very Good (740-799)    |     21%        |
+|  Excellent (800+)       |     20%        |
+|  Good (670-739)         |     19%        |
+
+**Insight:**
+
+Churn is fairly consistent across credit bands, and no strong correlation between score and churn.
+
+### Churn Balance by Risk Tier
+
+| Risk Tier       |  Churned Balance  |
+|-----------------|-------------------|
+|  Medium         |     $106M         |
+|  low            |     $79.4M        |
+|  High           |     $0.2M         |
+
+**Insight:**
+- My analysis showed that customers at the highest churn risk tend to have lower balances, meaning they contribute less to direct financial loss.
+- The majority of revenue loss actually comes from medium-risk, higher-value customers.
+- This highlights the need for differentiated retention strategies.
+
 
 ---
 
 
+## Financial Performance Summary
+
+<p align="right">
+  <img src="assets/Summary.png" width="1000" />
+</p>
+
+### KPIs Overview
+- Total Customers: 10,000
+- Churn Rate: 20.37% (2,037 customers churned)
+- Average Retain Balance: $72,745
+- Average Churn Balance: $91,109
+- Total Balance: $765M
+- Geographies: France, Germany, Spain
+
+  **Key Insights**
+  
 
 
 
 
-### 📊 Customer Segmentation: Analysis & Insights
-**1. By Location**
-- France has 50% (5,014) of the total customers.
-- Germany and Spain are almost equally represented (~25% each).
-
-**2. By Age Group & Gender**
-- Largest age segments:
-   - 35–44: 3,981 customers
-   - 25–34: 3,222 customers
-- Younger segment (<25) is the smallest: only 457 customers
-- Gender distribution is balanced across all age groups
-
-**3. By Credit Score Band**
-- Majority of customers have fair to poor credit:
-   - Fair (580–669): 3,331 customers
-   - Poor (<580): 2,362 customers
-   - Good (670–739): 2,428 customers
-- Only 655 customers have Excellent (800+) scores - just 6.5% of the base
-
-**4. By Number of Products**
-- Over 50% have only 1 product
-  - 5,084 (1 product)
-  - 4,590 (2 products)
-- Very few are using 3+ products
-
-**5. By Balance Band**
-- High Balance (100k–150k): 3,830 customers
-- Low Balance (<50k): 3,692 customers
-- Medium (50k-100k): 1,509 customers
-- Very High Balance (150k+): 969 customers
-- Most balances are clustered at the extremes - either low or high, suggesting a bimodal distribution
-
-
-### ⚠️ Key Challenges Identified
-**1. Low Active Engagement**
 - With only 51.51% active customers, nearly half of the customer base is disengaged or dormant.
   - This may contribute significantly to the 20.37% churn rate.
 
@@ -325,6 +368,28 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 <p align="center">
   <img src="assets/img/Q5.png" width="1000" />
 </p>
+
+
+
+
+
+
+
+
+
+
+
+## Customer Base Overview
+- Total Customers: 10,000
+- Total Balance: $764,858,893
+- Total Salary: $1,000,902,399
+- 
+
+
+
+
+
+
 
 ---
 
