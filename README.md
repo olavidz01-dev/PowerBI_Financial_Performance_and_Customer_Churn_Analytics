@@ -3,7 +3,9 @@
   <img src="assets/Overview.jpg" width="1000" />
 </p>
 
+
 ---
+
 
 ## Business Overview
 **Unity Bank** is a financial services institution operating across multiple European markets, including France, Germany, and Spain. The bank serves a diverse customer base with varying financial profiles, credit quality, and engagement levels. It also offers a variety of banking products across consumer and business segments. As part of its digital transformation and customer-centric strategy, the bank aims to strengthen data-driven decision-making across customer engagement, financial performance, and operational risk management.
@@ -82,6 +84,7 @@ Equip relationship managers and marketing teams with insights to design segment-
 
 ---
 
+
 ## Data Dictionary and Modelling
 - **CustomerID:** Unique customer identifier
 - **Surname:** Customer full name (for identification in the portfolio view)
@@ -107,6 +110,7 @@ Equip relationship managers and marketing teams with insights to design segment-
 
 
 ---
+
 
 ## Approach & Methodology
 This project was developed entirely using **Microsoft PowerBI**, covering the full analytics workflow — from data cleaning and transformation to modeling, analysis, and visualization. The objective was to analyze customer behavior, churn risk, and portfolio insights using an integrated and interactive PowerBI dashboard solution.
@@ -145,8 +149,17 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 ---
 
 
-## Employee Retention Analysis
-### 1) Top 5 longest-serving employees
+## Customer Overview
+### Top KPIs (Key Performance Indicators)
+- Total Customers: 10,000
+- Average Balance: $76,486
+- Products per Customer: 1.53 on average
+- Active Customers: 51.51%
+- Median Credit Score: 652
+
+### Customer Segmentation Analysis & Insights
+
+
 **Analysis & Insight:** 
 - The **earliest hire date** in the company is **June 30, 2015**, meaning the longest-serving employee has been with the organization for over 9 years.
 - All five longest-tenured employees were hired between **2015 and 2016**, highlighting a period of exceptionally strong retention.
