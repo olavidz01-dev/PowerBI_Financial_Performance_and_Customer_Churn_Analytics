@@ -157,7 +157,52 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 - Active Customers: 51.51%
 - Median Credit Score: 652
 
-### Customer Segmentation Analysis & Insights
+### Customer Segmentation: Analysis & Insights
+**1. By Location**
+- France has 50% (5,014) of the total customers.
+- Germany and Spain are almost equally represented (~25% each).
+
+**2. By Age Group & Gender**
+- Largest age segments:
+   - 35–44: 3,981 customers
+   - 25–34: 3,222 customers
+- Younger segment (<25) is the smallest: only 457 customers
+- Gender distribution is balanced across all age groups
+
+**3. By Credit Score Band**
+
+Majority of customers have fair to poor credit:
+
+Fair (580–669): 3,331 customers
+
+Poor (<580): 2,362 customers
+
+Good (670–739): 2,428 customers
+
+Only 655 customers have Excellent (800+) scores — just 6.5% of the base
+
+4. By Number of Products
+
+Over 50% have only 1 product
+
+5,084 (1 product)
+
+4,590 (2 products)
+
+Very few are using 3+ products → cross-sell penetration is low
+
+5. By Balance Band
+
+High Balance (100k–150k): 3,800 customers
+
+Low Balance (<50k): 3,700 customers
+
+Very High Balance (150k+): 1,000 customers
+
+Most balances are clustered at the extremes — either low or high, suggesting a bimodal distribution
+
+
+
 
 
 **Analysis & Insight:** 
