@@ -1,4 +1,4 @@
-# PowerBI_Financial_Performance_Customer_Churn_Analytics
+# PowerBI_Financial_Performance_and_Customer_Churn_Analytics
 <p align="center">
   <img src="assets/Overview.png" width="1000" />
 </p>
