@@ -148,7 +148,8 @@ Developed a comprehensive suite of interactive dashboards using **Power BI Deskt
 
 ---
 
-🔗 [View the Live Dashboard](https://bit.ly/UnityBank_Customer_Churn_Risk)
+🔗 [View the Live Dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiZWUwNzhjNTMtYjkwOS00NTc5LTlhODEtNWM2ZTIwNjJjMjJkIiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9&pageName=97e7837545ca68b681c0)
+
 
 ## 🔢 Customer Overview
 
@@ -407,7 +408,7 @@ E. **Financial Impact Monitoring**
 
 ---
 
-🔗 [View the Live Dashboard](https://bit.ly/UnityBank_Customer_Churn_Risk)
+🔗 [View the Live Dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiZWUwNzhjNTMtYjkwOS00NTc5LTlhODEtNWM2ZTIwNjJjMjJkIiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9&pageName=97e7837545ca68b681c0)
 
 
 ## Executive Summary
